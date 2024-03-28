@@ -89,5 +89,8 @@ function errorFunc () {
 
     getWeatherHtml.innerHTML += `
     <img src="https://www.elegantthemes.com/blog/wp-content/uploads/2020/08/000-http-error-codes.png" alt="" width="100%/>
+    body.classList.remove("hidden")
+    section.classList.remove("blur")
+    loader.classList.add("none")
     `
 }
