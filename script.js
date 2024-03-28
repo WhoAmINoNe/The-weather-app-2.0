@@ -88,6 +88,6 @@ function errorFunc () {
     let getWeatherHtml = document.querySelector("#weather")
 
     getWeatherHtml.innerHTML += `
-    <img src="https://www.elegantthemes.com/blog/wp-content/uploads/2020/08/000-http-error-codes.png" alt="" />
+    <img src="https://www.elegantthemes.com/blog/wp-content/uploads/2020/08/000-http-error-codes.png" alt="" width="100%/>
     `
 }
